@@ -1,0 +1,27 @@
+/* css vars */
+:root {
+  --primary: #2980b9;
+  --secondary: #c0392b;
+  --dark: #333;
+  --light: #fff;
+  --elevated-light: #dfe6e9;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* basic */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  background-color: var(--primary);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,5 @@
+.todo-list {
+  flex: 11;
+  padding: 10px;
+  overflow: scroll;
+}

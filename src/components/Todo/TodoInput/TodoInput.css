@@ -1,0 +1,24 @@
+.todo-input {
+  display: flex;
+  padding: 10px;
+  flex: 1;
+}
+
+.todo-title {
+  flex: 9;
+  height: 25px;
+  border-style: none;
+  border-radius: 5px;
+  border: 2px solid var(--dark);
+  padding: 5px;
+  outline: none;
+}
+
+.add-todo-btn {
+  margin-left: 10px;
+  flex: 3;
+  border-radius: 5px;
+  background-color: var(--dark);
+  color: var(--light);
+  border-style: none;
+}
